@@ -1,0 +1,30 @@
+{
+  "name": "ts-doc-extract",
+  "version": "0.1.0",
+  "description": "Extract AST documentation from TypeScript/JavaScript for spec-driver",
+  "type": "module",
+  "bin": {
+    "ts-doc-extract": "bin/ts-doc-extract.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "ts-morph": "^24.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "documentation",
+    "ast",
+    "spec-driver"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlee/ts-doc-extract.git"
+  }
+}
