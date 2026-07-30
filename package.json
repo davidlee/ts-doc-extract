@@ -1,6 +1,6 @@
 {
   "name": "ts-doc-extract",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Extract AST documentation from TypeScript/JavaScript for spec-driver",
   "type": "module",
   "bin": {
@@ -10,7 +10,7 @@
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
-    "ts-morph": "^28.0.0"
+    "ts-morph": ">=28.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
